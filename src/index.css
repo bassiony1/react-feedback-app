@@ -87,3 +87,11 @@ textarea {
 textarea::placeholder {
   text-align: center;
 }
+
+@media (width < 576px) {
+  .comment-input {
+    width: 100% !important;
+    text-align: center;
+  }
+  
+}

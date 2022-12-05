@@ -42,7 +42,7 @@ export default function CommentForm() {
         <div className="input-group rounded row rounded-3 flex-column flex-sm-row mt-4 justify-content-sm-between  justify-content-center align-content-center  p-2 border border-1">
           <input
             type="text"
-            className="form-control bg-dark col-sm-10 text-white no-border comment-input  mx-sm-auto  shadow-none fs-5 overflow-hidden "
+            className="form-control bg-dark col-sm-10 text-white text-center no-border comment-input w-100 mx-sm-auto  shadow-none fs-5 overflow-hidden "
             onChange={(e) => handleChange(e)}
             value={text}
             placeholder="Write Your Comment"
@@ -50,7 +50,7 @@ export default function CommentForm() {
           <button
             disabled={text.length < 2}
             type="submit"
-            className="btn btn-light col-sm-2 mt-3 mt-sm-0 comment-btn rounded rounded-3 p-3"
+            className="btn btn-light col-sm-2 mt-3 mt-sm-0 comment-btn w-100 rounded rounded-3 p-3"
           >
             Add
           </button>
